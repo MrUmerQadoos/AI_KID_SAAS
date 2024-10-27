@@ -7,17 +7,17 @@ const AgeGroup = ({ userSelection }: { userSelection: (data: { fieldValue: strin
   const OptionList: OptionField[] = [
     {
       label: "0-2 years",
-      imageUrl: "/story_type/iten8.jpg",
+      imageUrl: "/pics/1-2.webp",
       isFree: true,
     },
     {
       label: "3-5 years",
-      imageUrl: "/story_type/iten8.jpg",
+      imageUrl: "/pics/3-4.webp",
       isFree: true,
     },
     {
       label: "5-8 years",
-      imageUrl: "/story_type/iten8.jpg",
+      imageUrl: "/pics/5-6.webp",
       isFree: true,
     },
   ];

@@ -9,17 +9,17 @@ const StoryType = ({ userSelection }: { userSelection: (data: { fieldValue: stri
   const OptionList: OptionField[] = [
     {
       label: "Story Book",
-      imageUrl: "/story_type/iten8.jpg",
+      imageUrl: "/pics/storybook.webp",
       isFree: true,
     },
     {
       label: "Bed Story",
-      imageUrl: "/story_type/iten8.jpg",
+      imageUrl: "/pics/bedsleep.webp",
       isFree: true,
     },
     {
       label: "Educational",
-      imageUrl: "/story_type/iten8.jpg",
+      imageUrl: "/pics/educational.webp",
       isFree: true,
     },
   ];

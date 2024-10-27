@@ -4,6 +4,7 @@ import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -68,9 +69,19 @@ const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
-                  <NavLink title="features" />
+                <Link 
+  href="/" 
+  className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+>
+  Dashbord
+</Link>
                   <div className="dot" />
-                  <NavLink title="pricing" />
+                  <Link 
+  href="/buy_credit" 
+  className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+>
+  Buy Credits
+</Link>
                 </li>
 
                 <li className="nav-logo">
@@ -98,9 +109,21 @@ const Header = () => {
                 </li>
 
                 <li className="nav-li">
-                  <NavLink title="faq" />
+                <Link 
+  href="/create_story" 
+  className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+>
+  Create Story
+</Link>
                   <div className="dot" />
-                  <NavLink title="download" />
+                  <Link 
+  href="/dashbord" 
+  className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+>
+  All Stories
+</Link>
+
+                  
                 </li>
               </ul>
             </nav>

@@ -14,22 +14,22 @@ const ImageStyle = ({ userSelection }: { userSelection: (data: { fieldValue: str
   const OptionList: OptionField[] = [
         {
           label: "3D Cartoon",
-          imageUrl: "/story_type/iten8.jpg",
+          imageUrl: "/pics/3dcartoon.webp",
           isFree: true,
         },
         {
           label: "Paper Cut",
-          imageUrl: "/story_type/iten8.jpg",
+          imageUrl: "/pics/Paper Cut.webp",
           isFree: true,
         },
         {
           label: "Water Colour",
-          imageUrl: "/story_type/iten8.jpg",
+          imageUrl: "/pics/water color.webp",
           isFree: true,
         },
         {
           label: "Pixel Style",
-          imageUrl: "/story_type/iten8.jpg",
+          imageUrl: "/pics/pixleted.webp",
           isFree: true,
         },
       ];
